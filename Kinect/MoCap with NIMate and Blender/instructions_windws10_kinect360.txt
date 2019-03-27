@@ -1,0 +1,38 @@
+Good job, for those using Windows 10 and Xbox 360 v1, disable driver signature enforcement before installing Delicode NI Mate 2 Follow this to do so. If you don't do this it will not install the proper drivers needed. Hope this saves you some time.
+
+    Click the Start Start menu and select Settings.
+    Click Update and Security.
+    Click on Recovery.
+    Click Restart now under Advanced Startup.
+    Click Troubleshoot.
+    Click Advanced options.
+    Click Startup Settings.
+    Click on Restart.
+    On the Startup Settings screen press 7 or F7 to disable driver signature enforcement.
+
+Your computer will restart and you will be able to install non-digitally signed drivers. If you restart your computer again the driver signature enforcement will be re-enabled.?
+
+
+Additional note. Ni Mate will give the instructions on how to install the unsigned Kinect driver.
+If your computer has a dedicated graphics card, you may run into a " Spout error “Cannot create DirectX/OpenGL interop”" I have an Nvidia card, so I had to do:
+- Open Control Panel (hit the keyboard Windows button, type: "control panel")
+- Click on Hardware and Sound
+- Open the "Nvidia Control Panel"
+- Click on "Manage 3D Settings" 
+- Under "Global Settings" tab, under "Preferred graphics processor" choose "High-performance NVIDIA processor"
+- Click Apply
+- Close/restart Delicode Ni Mate 2?
+ 
+
+
+
+There something wrong with the rig in the Blender plugin. The plugin does receive messages from Ni Mate since the rig is moving, but the armature gets deformed and moving like the skeleton joints from Kinect are not mapped correctly to the rig. 
+The rig was made for the skeleton from Kinect v2 which has a few more joints than Kinect v1. To make the rig work for Kinect v1:
+- Open the Blender model
+- Select and delete the following:
+      - Delete Left_Collar and Right_Collar
+      - Delete Left_Hand and rename Left_Wrist to "Left_Hand"
+      - Delete Right_Hand and rename Right_Wrist to "Right_Hand"
+      - Delete Left_Foot and rename Left_Ankle to "Left_Foot"
+      - Delete Right_Foot and rename Right_Ankle to "Right_Foot"
+

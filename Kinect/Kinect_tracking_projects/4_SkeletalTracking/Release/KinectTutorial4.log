@@ -1,0 +1,10 @@
+﻿  main.cpp
+main.cpp(61): warning C4800: 'INuiSensor *': forcing value to bool 'true' or 'false' (performance warning)
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+  Generating code
+  1 of 154 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  KinectTutorial4.vcxproj -> C:\Users\Alexis\Downloads\EI3-RV\P2RV\Kinect projects\4_SkeletalTracking\Release\KinectTutorial4.exe
+  KinectTutorial4.vcxproj -> C:\Users\Alexis\Downloads\EI3-RV\P2RV\Kinect projects\4_SkeletalTracking\Release\KinectTutorial4.pdb (Full PDB)

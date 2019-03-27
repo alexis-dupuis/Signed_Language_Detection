@@ -1,0 +1,5 @@
+﻿  main.cpp
+c:\users\alexis\downloads\ei3-rv\p2rv\kinect projects\4_skeletaltracking\main.cpp(49): warning C4800: 'INuiSensor *': forcing value to bool 'true' or 'false' (performance warning)
+  glut.cpp
+  Generating Code...
+LINK : fatal error LNK1104: cannot open file 'SDL.lib'

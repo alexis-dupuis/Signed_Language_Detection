@@ -1,0 +1,4 @@
+﻿  glut.cpp
+glut.cpp(50): warning C4800: 'INuiSensor *': forcing value to bool 'true' or 'false' (performance warning)
+  KinectTutorial1.vcxproj -> C:\Users\Alexis\Downloads\EI3-RV\P2RV\Kinect projects\1_Basics\glut\Debug\KinectTutorial1.exe
+  KinectTutorial1.vcxproj -> C:\Users\Alexis\Downloads\EI3-RV\P2RV\Kinect projects\1_Basics\glut\Debug\KinectTutorial1.pdb (Full PDB)

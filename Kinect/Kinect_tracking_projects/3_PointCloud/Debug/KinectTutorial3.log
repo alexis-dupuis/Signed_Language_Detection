@@ -1,0 +1,12 @@
+﻿  main.cpp
+main.cpp(43): warning C4305: 'initializing': truncation from 'double' to 'float'
+main.cpp(44): warning C4305: 'initializing': truncation from 'double' to 'float'
+main.cpp(46): warning C4305: 'initializing': truncation from 'double' to 'float'
+main.cpp(47): warning C4305: 'initializing': truncation from 'double' to 'float'
+main.cpp(50): warning C4305: 'initializing': truncation from 'double' to 'float'
+main.cpp(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+main.cpp(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+main.cpp(54): warning C4305: 'initializing': truncation from 'double' to 'float'
+main.cpp(78): warning C4800: 'INuiSensor *': forcing value to bool 'true' or 'false' (performance warning)
+  KinectTutorial3.vcxproj -> C:\Users\Alexis\Downloads\EI3-RV\P2RV\Kinect projects\3_PointCloud\Debug\KinectTutorial3.exe
+  KinectTutorial3.vcxproj -> C:\Users\Alexis\Downloads\EI3-RV\P2RV\Kinect projects\3_PointCloud\Debug\KinectTutorial3.pdb (Full PDB)
